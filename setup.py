@@ -12,8 +12,8 @@ setup(
     url = 'https://github.com/blakev/python-syncthing',
     license = 'The MIT License',
     install_requires = [
-        'python-dateutil==2.8.1',
-        'requests==2.24.0'
+        'python-dateutil>=2.8.1,<=2.8.2',
+        'requests>=2.24.0,<=2.28.0'
     ],
     extras_require = {
         'dev': [
