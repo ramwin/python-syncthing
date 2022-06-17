@@ -4,7 +4,7 @@
 from setuptools import setup
 
 setup(
-    name = 'syncthing',
+    name = 'test-syncthing',
     version = '2.4.2',
     author = 'Blake VandeMerwe',
     author_email = 'blakev@null.net',
