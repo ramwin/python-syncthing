@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name = 'syncthing',
-    version = '2.4.3',
+    version = '2.4.6',
     author = 'Blake VandeMerwe',
     author_email = 'blakev@null.net',
     description = 'Python bindings to the Syncthing REST interface, targeting v0.14.44',
@@ -13,7 +13,7 @@ setup(
     license = 'The MIT License',
     install_requires = [
         'python-dateutil>=2.8.1,<=2.8.2',
-        'requests>=2.24.0,<=2.28.0'
+        'requests>=2.24.0,<3',
     ],
     extras_require = {
         'dev': [
